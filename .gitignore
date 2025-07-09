@@ -1,0 +1,55 @@
+# === Rust build output ===
+/target/
+**/*.rs.bk
+
+# === Cargo related ===
+/Cargo.lock
+/.cargo/
+
+# === IDEs and editors ===
+# VSCode
+.vscode/
+/*.code-workspace
+
+# JetBrains IDEs (CLion, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*.un~
+.session
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# === OS / FS noise ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Test / debug output ===
+/debug.log
+/test-output/
+/*.log
+
+# === Git backup noise ===
+*.orig
+*.rej
+# === Rust build artefacts ===
+/target/
+/Cargo.lock
+
+# === IDEs & editors ===
+.vscode/
+.idea/
+/*.swp
+*.log
+*.tmp
